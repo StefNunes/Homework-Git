@@ -21,20 +21,21 @@ public class HomeworkGit {
      BufferedReader myInput = new BufferedReader(new InputStreamReader(System.in));
      String MyName;
      
-       
+        System.out.println("Welcome to RandonQuestions !!!");
+     
        try {
         System.out.println("What's your Name?");
              MyName = myInput.readLine();
         
         System.out.println(" Oh, that is a very nice name," + MyName);
         
-        System.out.println("What is your quest ?");
-             String quest = myInput.readLine();
+        System.out.println("What is your Favorite Animal ?");
+             String animal = myInput.readLine();
         
         System.out.println("What is your Favorite colour ?");
              String colour = myInput.readLine();
              
-        System.out.println("Ah, I see your quest is " + quest + ", and your favourite colour is " + colour +".");
+        System.out.println("Ah, I see your quest is " + animal + ", and your favourite colour is " + colour +".");
         
         System.out.println(" Enter with the First Number? ");
             String num1 = myInput.readLine();
@@ -44,10 +45,12 @@ public class HomeworkGit {
             String total = num1+num2; 
         
         System.out.println("The sum of " + num1 + " + " + num2 + " is " + total);
-                 
+         
+            
     } 
     catch (Exception e) {
-         
+        
+        System.out.println("Error - Something is wrong try again"); 
      }
     
     }

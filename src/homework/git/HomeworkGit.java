@@ -35,7 +35,16 @@ public class HomeworkGit {
              String colour = myInput.readLine();
              
         System.out.println("Ah, I see your quest is " + quest + ", and your favourite colour is " + colour +".");
-  
+        
+        System.out.println(" Enter with the First Number? ");
+            String num1 = myInput.readLine();
+            
+        System.out.println(" Enter with a Second Number? ");
+            String num2 = myInput.readLine();
+            String total = num1+num2; 
+        
+        System.out.println("The sum of " + num1 + " + " + num2 + " is " + total);
+                 
     } 
     catch (Exception e) {
          

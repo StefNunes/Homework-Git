@@ -27,7 +27,15 @@ public class HomeworkGit {
              MyName = myInput.readLine();
         
         System.out.println(" Oh, that is a very nice name," + MyName);
-            
+        
+        System.out.println("What is your quest ?");
+             String quest = myInput.readLine();
+        
+        System.out.println("What is your Favorite colour ?");
+             String colour = myInput.readLine();
+             
+        System.out.println("Ah, I see your quest is " + quest + ", and your favourite colour is " + colour +".");
+  
     } 
     catch (Exception e) {
          
